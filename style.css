@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header div img{
+    width: 12vh;
+    height: 8vh;
+
+}
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    align-items:center;
+    justify-content:space-between;
+}
+header div img{
+    width: 12vh;
+    height: 8vh;
+
+}
+main {
+    width: 100%;
+  }
+  
+  .home {
+    width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url("assets/img/home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .home h1 {
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 5%;
+  }
+  
+  .paises {
+    width: 100%;
+    background-color: #00853e;
+    padding: 50px;
+  }
+  
+  .todospaises {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tabelapaises {
+    width: 25%;
+  }
+  
+  .tabelapaises img {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+  footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerBandeiras {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerBandeiras li {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+  .footerBandeiras li img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footerNomes {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+ 
+
+
+
+
